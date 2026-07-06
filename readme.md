@@ -3,12 +3,7 @@ Simple TouchGFX deployment on STM32 disco
 
 ## Demo Video
 
-
-
-<video src="https://github.com/user-attachments/assets/68c6b279-5d39-46b7-ba2f-d445f81bf471" controls="controls" style="max-width: 100%;">
-  Vaš preglednik ne podržava reprodukciju ovog videa.
-</video>
-
+https://www.youtube.com/watch?v=XF0QEu6tveE
 
 ---
 
