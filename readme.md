@@ -1,8 +1,13 @@
+# TouchandWave
+Simple TouchGFX deployment on STM32 disco
+
+## Demo Video
+
+https://github.com
+
+---
+
 # STM32F746G_DISCO TBS.
-
-The default IDE is set to STM32CubeIDE, to change IDE open the STM32F746G_DISCO.ioc with STM32CubeMX and select from the supported IDEs (EWARM from version 8.50.9, MDK-ARM, and STM32CubeIDE). Supports flashing of the STM32F746G_DISCO board directly from TouchGFX Designer using GCC and STM32CubeProgrammer.Flashing the board requires STM32CubeProgrammer which can be downloaded from the ST webpage. 
-
-This TBS is configured for 272 x 480 pixels 16bpp screen resolution.  
-
-Performance testing can be done using the GPIO pins designated with the following signals: VSYNC_FREQ  - Pin PB4(D3), RENDER_TIME - Pin PC6(D1), FRAME_RATE  - Pin PC7(D0), MCU_ACTIVE  - Pin PG6(D2)
+This is a small example of deploying TouchGFX on STM32F746 Discovery Kit for interactive application based on Model-View-Presenter (MVP) pattern involving PIR motion detector sensor
+User changes the screen color pressing the right button or activating the PIR sensor. The left button resets the screen color. This example presents MVP pattern in C++ also using the STM32 HAL functions for interaction with other peripherals. Please watch the demo video. 
  
